@@ -384,7 +384,7 @@ emax6_pre_with_drain_cache();
 /*******************************************************************************/
 
 void cex(Uint op_cx, Ull *ex, Ull c3, Ull c2, Ull c1, Ull c0, Ushort pattern);
-void ex4(Uint op_ex1, Ull *d, Ull *r1, Uint exp1, Ull *r2, Uint exp2, Ull *r3, Uint exp3, Uint op_ex2, Ull *r4, Uint op_ex3, Ull *r5)
+void ex4(Uint op_ex1, Ull *d, Ull *r1, Uint exp1, Ull *r2, Uint exp2, Ull *r3, Uint exp3, Uint op_ex2, Ull *r4, Uint op_ex3, Ull *r5);
 int convf32tou7(Uchar *out, float in);
 int convf32tou8(Uchar *out, float in);
 int convu8tof32(float *out, Uchar in);
